@@ -44,7 +44,7 @@ body {
 }
 
 .follow-btn {
-    padding: 8px 20px;
+    padding: 4px 10px;
     flex-grow: 0;
     flex-shrink: 0;
     position: absolute;
@@ -68,7 +68,7 @@ body {
 
 .container,
 .profile-image {
-    max-width: 300px;
+    max-width: 250px;
 }
 
 .container {
