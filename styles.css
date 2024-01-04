@@ -8,10 +8,6 @@ body {
     background-color: #0A397F;
 }
 
-HTML CSSResult Skip Results Iframe
-EDIT ON
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -22,15 +18,25 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.profile-image {
+    margin: auto;
+}
+
 .container {
-  max-width: 300px;
-  width: 90%;
+  max-width: 400px;
+  width: 100%;
   margin: auto;
 }
 
 .navbar {
   width: 100%;
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  /* box-shadow: 0 1px 4px rgb(146 161 176 / 15%); */
 }
 
 .nav-container {
@@ -38,6 +44,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 62px;
+  /* border: 1px solid red; */
 }
 
 .navbar .menu-items {
@@ -114,9 +121,9 @@ body {
 }
 
 .navbar .menu-items {
-  padding-top: 120px;
+  padding-top: 12px;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .2);
-  height: 50dvh;
+  height: 30dvh;
   width: 100%;
   transform: translate(-550%);
   display: flex;
